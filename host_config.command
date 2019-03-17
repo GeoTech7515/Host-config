@@ -4,10 +4,10 @@
 #Welcome meesage
 echo
 echo "   ######################################################################"
-echo "   #   You are now run the program that will ruin the kids lifes XD.    #"
-echo "   #    Well I hope you enjoy what you about to do because they wont.   #"
+echo "   #  You are now running the program that will ruin the kids' lives XD.#"
+echo "   #          Enjoy what your about to do because they wont.            #"
 echo "   ######################################################################"
-echo "   #   It is recommended that you run this program on Administrator     #"
+echo "   #       It is recommended to run this program on an Administrator    #"
 echo "   #            account to avoid any problems that may arise            #"
 echo "   ######################################################################"
 echo "   #         If you are having any probelems please email me at:        #"
@@ -22,9 +22,9 @@ clear
 
 echo
 echo "   #####################################################################"
-echo "   #    It is recommended that you make a copy of the orginal host     #"
-echo "   #     file to a flash drive or on the computer just in case you     #"
-echo "   #                   delete or brake the file                        #"
+echo "   #    It is recommended that you make a copy of the original host    #"
+echo "   #     file to a flash drive or on the computer in the event you     #"
+echo "   #                   delete or damage the file                       #"
 echo "   #####################################################################"
 echo
 echo " Will you be making a copy of the file [Y,n]"
@@ -47,7 +47,7 @@ if [[ $answer == "y" ]]; then
 else
 	#statements
 	clear
-	echo -e "\033[31;1mGo login into an Administrator account then run this program again.\033[m"
+	echo -e "\033[31;1mGo login into an Administrator account, then run this program again.\033[m"
 	exit 0;	
 fi
 clear
@@ -63,7 +63,7 @@ fi
 clear
 
 #Flushing the DNS
-sudo killall -HUP mDNSResponder;
+#sudo killall -HUP mDNSResponder;
 
 say DNS cache has been flushed;
 
