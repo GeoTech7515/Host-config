@@ -63,7 +63,7 @@ fi
 clear
 
 #Flushing the DNS
-#sudo killall -HUP mDNSResponder;
+sudo killall -HUP mDNSResponder;
 
 say DNS cache has been flushed;
 
